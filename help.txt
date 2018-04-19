@@ -1,0 +1,32 @@
+
+NBA TEAMS:
+Western Conference: Warriors, Rockets, Blazers, Thunder, Jazz, Pelicans,
+Timberwolves, Spurs, Suns, Kings, Lakers, Nuggets, Mavericks, Grizzlies
+
+Eastern Conference: Raptors, Celtics, 76ers, Cavaliers, Pacers, Heat,
+Bucks, Wizards, Pistons, Hornets, Knicks, Bulls, Magic, Nets, Hawks
+
+
+Commands available:
+
+attendance
+
+	Options:
+
+		* <rankings> [default: none]
+		Description: Bar graph ranking NBA teams by average attendance.
+
+		* <times> [default: top=10]
+		Description: Bar graph charting the top 10 time slots that
+		draw the highest average attendance.
+
+scores
+
+	Options:
+		* <NBA team from above list> [default: none]
+		Description: Line graph charing the selected team's point totals
+		 on the road vs at home.
+
+		* <attendance> [default: none]
+		Description: Scatter plot charting point differential in comparison
+		to average attendance.
